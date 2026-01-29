@@ -67,7 +67,7 @@ const ContactSection = () => {
               </div>
 
               {/* Social Links */}
-              <div className="glass rounded-2xl p-8 shadow-card">
+              {/* <div className="glass rounded-2xl p-8 shadow-card">
                 <h3 className="text-xl font-semibold mb-6">Connect With Me</h3>
                 <div className="flex gap-4">
                   <a 
@@ -89,12 +89,12 @@ const ContactSection = () => {
                     <span className="font-medium">GitHub</span>
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
 
             {/* CTA Card */}
             <div className="glass rounded-2xl p-8 shadow-card shadow-glow flex flex-col justify-center">
-              <div className="text-center">
+              {/* <div className="text-center">
                 <div className="w-16 h-16 rounded-2xl bg-gradient-primary flex items-center justify-center mx-auto mb-6">
                   <Send className="w-8 h-8 text-primary-foreground" />
                 </div>
@@ -111,7 +111,29 @@ const ContactSection = () => {
                     Send Me an Email
                   </Button>
                 </a>
-              </div>
+              </div> */}
+                <h3 className="text-xl font-semibold mb-6">Connect With Me</h3>
+
+              <div className="flex gap-4">
+                  <a 
+                    href="https://linkedin.com/in/rupeshchawan"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 flex items-center justify-center gap-3 p-4 rounded-xl bg-secondary/30 hover:bg-primary/10 hover:border-primary/30 border border-transparent transition-all group"
+                  >
+                    <Linkedin className="w-5 h-5 text-primary" />
+                    <span className="font-medium">LinkedIn</span>
+                  </a>
+                  <a 
+                    href="https://github.com/rupeshchawan"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="flex-1 flex items-center justify-center gap-3 p-4 rounded-xl bg-secondary/30 hover:bg-primary/10 hover:border-primary/30 border border-transparent transition-all group"
+                  >
+                    <Github className="w-5 h-5 text-primary" />
+                    <span className="font-medium">GitHub</span>
+                  </a>
+                </div>
             </div>
           </div>
         </div>

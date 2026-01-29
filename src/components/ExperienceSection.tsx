@@ -3,10 +3,25 @@ import { Briefcase, GraduationCap } from "lucide-react";
 const experiences = [
   {
     type: "work",
+    title: "Frontend Developer",
+    company: "Winfo Solutions",
+    location: "Hyderabad, India",
+    period: "July 17, 2025 – Present",
+    highlights: [
+      "Developing enterprise-level applications using React.js with focus on scalable frontend architecture",
+      "Implemented Single Sign-On (SSO) authentication for secure and seamless user access across applications",
+      "Managed cloud deployments on Azure Static Web Apps with CI/CD pipelines and DevOps integration",
+      "Built data-driven UI components integrating with Databricks for video analytics and large dataset visualization",
+      "Developed complex multi-step onboarding workflows with advanced form validation for enterprise clients",
+      "Collaborated with cross-functional teams (Backend, DevOps, QA) to deliver production-ready solutions",
+    ],
+  },
+  {
+    type: "work",
     title: "React.js Developer",
     company: "BISAG-N",
     location: "Gandhinagar, Gujarat",
-    period: "Apr 2023 - Present",
+    period: "Apr 2023 - June 2025",
     highlights: [
       "Crafted responsive web interfaces using React and modern CSS frameworks, improving user engagement by 30%",
       "Assembled components and reusable UI libraries, reducing development time by 25%",

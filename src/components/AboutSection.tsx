@@ -41,7 +41,7 @@ const AboutSection = () => {
                   coding practices.
                 </p>
                 <p className="text-muted-foreground leading-relaxed mb-4">
-                  Currently working at <span className="text-primary font-medium">BISAG-N</span>, 
+                  Currently working at <span className="text-primary font-medium">WINFO SOLUTIONS</span>, 
                   I've contributed to improving user engagement by 30%, reducing development time 
                   by 25%, and enhancing data comprehension through interactive dashboards.
                 </p>
@@ -54,11 +54,11 @@ const AboutSection = () => {
               {/* Quick Stats */}
               <div className="grid grid-cols-3 gap-4">
                 <div className="glass rounded-xl p-6 text-center">
-                  <div className="text-3xl font-bold text-gradient">2+</div>
+                  <div className="text-3xl font-bold text-gradient">3</div>
                   <div className="text-sm text-muted-foreground mt-1">Years Exp.</div>
                 </div>
                 <div className="glass rounded-xl p-6 text-center">
-                  <div className="text-3xl font-bold text-gradient">10+</div>
+                  <div className="text-3xl font-bold text-gradient">5+</div>
                   <div className="text-sm text-muted-foreground mt-1">Projects</div>
                 </div>
                 <div className="glass rounded-xl p-6 text-center">

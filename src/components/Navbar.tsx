@@ -61,14 +61,14 @@ const Navbar = () => {
                 {link.label}
               </button>
             ))}
-            <a href="mailto:rupeshchawan887@gmail.com">
+            {/* <a href="mailto:rupeshchawan887@gmail.com">
               <Button 
                 size="sm"
                 className="bg-gradient-primary text-primary-foreground font-medium shadow-glow hover:opacity-90"
               >
                 Hire Me
               </Button>
-            </a>
+            </a> */}
           </div>
 
           {/* Mobile Menu Toggle */}

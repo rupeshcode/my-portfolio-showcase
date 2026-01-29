@@ -1,7 +1,46 @@
-import { ExternalLink, BarChart3, Shield, Calendar, Users } from "lucide-react";
+import { ExternalLink, BarChart3, Shield, Calendar, Users, Database, Cloud, FileText } from "lucide-react";
 import { Button } from "./ui/button";
 
 const projects = [
+  {
+    title: "Winfo Pulse Application",
+    description: "Enterprise-level application with Single Sign-On (SSO) authentication and cloud deployment on Azure Static Web Apps with secure authentication flows.",
+    icon: Cloud,
+    tech: ["React.js", "Azure Static Web Apps", "OAuth/SSO", "Azure DevOps"],
+    highlights: [
+      "Enterprise SSO integration",
+      "Cloud-based deployment (Azure)",
+      "Secure authentication flow",
+      "CI/CD with Azure DevOps",
+    ],
+    company: "Winfo Solutions",
+  },
+  {
+    title: "Video Extraction & Analytics",
+    description: "Data visualization platform with performance-optimized React components for handling large datasets from Databricks integration.",
+    icon: Database,
+    tech: ["React.js", "Databricks", "REST APIs", "Data Visualization"],
+    highlights: [
+      "Databricks data integration",
+      "Performance-optimized components",
+      "Large dataset visualization",
+      "Real-time analytics dashboard",
+    ],
+    company: "Winfo Solutions",
+  },
+  {
+    title: "McKesson Onboarding System",
+    description: "Complex enterprise onboarding workflows with multi-step forms, advanced validation, and streamlined user flows for improved completion rates.",
+    icon: FileText,
+    tech: ["React.js", "Form Libraries", "REST APIs", "Multi-step Forms"],
+    highlights: [
+      "Enterprise onboarding system",
+      "Complex form handling",
+      "Improved completion rates",
+      "Scalable React architecture",
+    ],
+    company: "Winfo Solutions",
+  },
   {
     title: "Coal Mining - CMSMS",
     description: "A secure and user-friendly dashboard for coal mining data visualization with interactive pie charts that improved data comprehension by 35%.",
@@ -12,6 +51,7 @@ const projects = [
       "99% data accuracy in submissions",
       "20% reduction in bounce rates",
     ],
+    company: "BISAG-N",
   },
   {
     title: "EPFO Recruitment Portal",
@@ -23,6 +63,7 @@ const projects = [
       "Enhanced security measures",
       "Improved user confidence",
     ],
+    company: "BISAG-N",
   },
   {
     title: "Leave Management System - Offtime",
@@ -34,7 +75,23 @@ const projects = [
       "Sandwich leave system",
       "Admin reporting interface",
     ],
-    link: "https://gatishakti.ncog.gov.in/offtime",
+    company: "BISAG-N",
+    // link: "https://gatishakti.ncog.gov.in/offtime",
+  },
+  {
+    title: "PM Internship Portal",
+    description: "Government internship platform with responsive web interfaces, interactive dashboards, and comprehensive data visualization for enhanced user engagement and experience.",
+    icon: Users,
+    tech: ["React.js", "Modern CSS", "React Hook Form", "Yup", "Data Visualization"],
+    highlights: [
+      "30% improvement in user engagement",
+      "25% reduction in development time",
+      "15% increase in user satisfaction",
+      "40% decrease in form submission errors",
+      "20% improvement in data comprehension",
+    ],
+    company: "BISAG-N",
+    link: "https://pminternship.mca.gov.in",
   },
 ];
 
@@ -68,7 +125,10 @@ const ProjectsSection = () => {
                 </div>
 
                 {/* Title & Description */}
-                <h3 className="text-xl font-semibold text-foreground mb-3">{project.title}</h3>
+                <h3 className="text-xl font-semibold text-foreground mb-2">{project.title}</h3>
+                {project.company && (
+                  <p className="text-primary text-sm font-medium mb-2">{project.company}</p>
+                )}
                 <p className="text-muted-foreground text-sm mb-4 flex-grow">{project.description}</p>
 
                 {/* Highlights */}

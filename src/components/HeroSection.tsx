@@ -87,12 +87,12 @@ const HeroSection = () => {
             >
               <Github className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
             </a>
-            <a 
+            {/* <a 
               href="mailto:rupeshchawan887@gmail.com"
               className="p-3 rounded-full glass hover:bg-primary/10 hover:border-primary/30 transition-all group"
             >
               <Mail className="w-5 h-5 text-muted-foreground group-hover:text-primary transition-colors" />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
